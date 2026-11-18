@@ -13,7 +13,7 @@
   </properties>
 
   <dependencies>
-    <!-- Unica dependencia nueva: el driver JDBC de MySQL. Maven lo descarga solo
+    <!-- Unica dependencia nueva: El driver JDBC de MySQL. Maven lo descarga solo
          desde Maven Central y lo agrega al classpath del proyecto. Compara esto
          con clase05-jdbc-sin-maven, donde ese mismo .jar hay que descargarlo y
          referenciarlo a mano. -->
