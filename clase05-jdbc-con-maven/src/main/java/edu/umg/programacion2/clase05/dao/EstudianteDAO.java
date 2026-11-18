@@ -25,10 +25,9 @@ import java.util.Optional;
  */
 public class EstudianteDAO {
 
-    private static final String URL ="jdbc:mariadb://localhost:3306/tarea5_db";
-    //private static final String URL ="jdbc:mysql://localhost:3306/tarea5_db?useSSL=false&serverTimezone=UTC";
+	private static final String URL = "jdbc:mysql://localhost:3306/prog2_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USUARIO = "root";
-    private static final String PASSWORD = "Lessen08";
+    private static final String PASSWORD = "umg2026";
 
     // 1. CREATE: inserta un estudiante nuevo y retorna el id que le asigno MySQL.
     public int crear(Estudiante estudiante) throws SQLException {
